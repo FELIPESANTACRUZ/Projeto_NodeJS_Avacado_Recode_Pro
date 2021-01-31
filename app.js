@@ -12,9 +12,11 @@ app.set('view engine','ejs')
 app.set('views', './src/views')
 
 //renderizando minha pagina principal
-app.get('/',(req,res)=> {
+server.get('/',(req,res)=> {
     //chmamdo o arquivo da minha view
-    res.render('index')
+    res.render('index', { dado: ""})
+})
+
 })
 //pegando os dados da minha view
 app.post('/envia-cep', async(req, res) =>{
