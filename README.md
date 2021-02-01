@@ -1,2 +1,2 @@
-# Projeto_NodeJS_Avacado_Recode_Pro
- Entregável do curso de NodeJS da Recode Pro
+# Projeto_ViaCep_NodeJS
+Consumindo api do ViaCep e retornando dados
